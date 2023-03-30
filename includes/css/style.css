@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: cadetblue;
+    
+}
+
+.tarjeta{
+    position: relative;
+    display: block;
+    width: 700px;
+    margin-left: -350px;
+    left: 50%;
+    height: 200px;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: white;
+    border-radius:  30px;
+    box-shadow: black 10px 10px 0px;
+    transition-timing-function: linear;
+}
+
+.tarjeta:hover{
+    cursor: pointer;
+    background-color: greenyellow;
+    
+}
+
+.tarjeta .imagen, .tarjeta .texto {
+    display: inline-block;
+}
+
+.tarjeta .imagen{
+    width: 40%;
+    margin-right: 10px;
+    padding-top:  10px;
+    
+
+}
+.tarjeta .texto{
+    width: 40%;
+
+}
+.imagen2{
+    width: 40%;
+    margin-right: 10px;
+    padding-top:  40px;
+    
+}
+.imagen2:hover 
+{
+    width: 700px;
+}
+#div{transition-timing-function: ease-in;}
